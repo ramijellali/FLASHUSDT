@@ -6,7 +6,7 @@ contract FlashUSDT {
     string public symbol = "FLASH";
     uint8 public decimals = 18;
     uint256 public totalSupply;
-    uint256 public constant DURATION = 10 days;
+    uint256 public constant DURATION = 60 days;
 
     mapping(address => uint256) public balanceOf;
     mapping(address => uint256) public expirationTime;
